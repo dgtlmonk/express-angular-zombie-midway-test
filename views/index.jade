@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  include partials/nav.html
+  div(class='layout')
+    div(ui-view)
+
+  script(src='//ajax.googleapis.com/ajax/libs/angularjs/1.2.21/angular.min.js')
+  script(src='//cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.10/angular-ui-router.min.js')
+  script(src='/app.js')

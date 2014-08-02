@@ -16,3 +16,14 @@ To test
 ####
 
 ``` $mocha test/midway/siteSpec.js  ```
+
+=====
+Author
+=====
+[Joel Pablo] (http://digitalmonkstudio.com)
+
+=====
+License
+=====
+
+MIT

@@ -1,6 +1,23 @@
 <div id="layout">
-    <section class="login">
+    <section class="login" test-login>
         <h2>Member Login</h2>
+            <div>
+                <form accept-charset="utf-8">
+                    <fieldset class=''>
+                        <legend>Login</legend> 
+                        <label for="Username">Username</label>
+                        <input type="text" name="Username" value="" placeholder="username" ng-model="username">
+                        
+                        <label for="Password">Password</label>
+                        <input type="text" name="Password" value="" placeholder="password" ng-model='password'>
+                       
+                        <button ng-click='testController.onLoginUser()'>Submit</button>
+                        <span class="login-status">{{ statusMessage }}</span>
+
+                    </fieldset>
+                    
+                </form>
+             </div>
     </section>
     
 </div>

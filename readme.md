@@ -1,15 +1,19 @@
-##
+###
 Midway Testing Using ZombieJS with ExpressJS and AngularJS 
+###
+
+
+##
+Midway testing using ZombieJS on ExpressJS App and AngularJS. Mocha might need installation globally (npm install -g mocha)
 ##
 
 
 ```
-$ ./bin/www
+(sudo) npm install 
 ```
 
-
 ####
-Test
+To test
 ####
 
-``` $mocha test/midway/siteSpec.js --reporter spec ```
+``` $mocha test/midway/siteSpec.js  ```

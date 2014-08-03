@@ -17,7 +17,7 @@ Run and Test
 
 ``` 
 (terminal 1) $./bin/www
-(terminal 1) $mocha test/midway/siteSpec.js  
+(terminal 1) $mocha test/midway/site.spec.js  
 
 ```
 

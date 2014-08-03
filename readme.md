@@ -12,10 +12,14 @@ Midway testing using ZombieJS on ExpressJS App and AngularJS. Mocha might need i
 ```
 
 ####
-To test
+Run and Test
 ####
 
-``` $mocha test/midway/siteSpec.js  ```
+``` 
+(terminal 1) $./bin/www
+(terminal 1) $mocha test/midway/siteSpec.js  
+
+```
 
 =====
 Author

@@ -1,5 +1,5 @@
 ====
-Midway Testing Using ZombieJS with ExpressJS and AngularJS 
+E2E Testing Using ZombieJS with ExpressJS and AngularJS 
 ====
 
 ##
